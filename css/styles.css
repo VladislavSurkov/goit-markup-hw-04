@@ -293,6 +293,7 @@ body {
 
 .network-items {
   display: flex;
+  
 }
 .team-link {
   display: flex;
@@ -300,6 +301,14 @@ body {
   align-items: center;
   width: 44px;
   height: 44px;
+  background: transparent;
+  border-radius: 50%;
+   
+}
+.network-item{
+  
+background: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
 }
 
 .team-icon {
