@@ -305,7 +305,7 @@ body {
   border-radius: 50%;
    
 }
-.network-item{
+.team-link{
   
 background: rgba(255, 255, 255, 0.1);
 border-radius: 50%;
@@ -323,10 +323,10 @@ border-radius: 50%;
 .team-link:focus .team-icon {
   fill: var(--accent-team-icon-color);
 }
-.network-item:hover,
-.network-item:focus {
+.team-link:hover,
+.team-link:focus {
   background-color: var(--accent-team-background-color);
-  border-radius: 50%;
+  
 }
 
 /* --------------------------clients------------------------------------ */
@@ -438,8 +438,8 @@ border-radius: 50%;
 .social-link:focus .social-icon {
   fill: var(--accent-team-icon-color);
 }
-.social-item:hover,
-.social-item:focus {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-team-background-color);
   border-radius: 50%;
 }
