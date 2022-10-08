@@ -32,6 +32,8 @@ body {
   background: var(--primary-background-color);
   color: var(--primary-text-color);
 }
+a{text-decoration: none;}
+
 /*--------------------------- section container ------------------------*/
 .section {
   padding-top: 94px;
@@ -65,7 +67,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
   color: var(--logo-color);
 }
 .header-studio {
@@ -77,9 +78,7 @@ body {
   display: flex;
   margin-left: 93px;
 }
-.menu-item {
-  padding: 32px 0;
-}
+
 .header-items .item:not(:last-child),
 .header-contacts .item:not(:last-child) {
   margin-right: 50px;
@@ -89,8 +88,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
-
+  padding: 32px 0;
   color: var(--title-text-color);
 }
 .header-item:hover,
@@ -125,7 +123,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
   padding: 32px 0;
   color: var(--primary-text-color);
 }
@@ -384,7 +381,6 @@ border-radius: 50%;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-  text-decoration: none;
   color: var(--footer-contact);
 }
 .address:not(:last-child) {
@@ -406,6 +402,7 @@ border-radius: 50%;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
@@ -484,6 +481,7 @@ border-radius: 50%;
   width: calc((100% - 60px) / 3);
   background: var(--primary-background-color);
 }
+/* .project-link{} */
 
 .project-box {
   padding: 20px 24px 20px;
@@ -500,6 +498,7 @@ border-radius: 50%;
   color: var(--title-text-color);
 }
 .project .text {
+  color: var(--primary-text-color);
   margin: 0;
 }
 
